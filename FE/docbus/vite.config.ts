@@ -10,6 +10,6 @@ export default defineConfig({
     },
   },
   define: {
-    __dirname: path.resolve(),
+    // __dirname: path.resolve(), // 이 줄을 제거하거나 주석 처리
   },
 });
